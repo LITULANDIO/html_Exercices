@@ -1,0 +1,32 @@
+#box1{
+height:200px;
+background-color: #838283;
+
+}
+
+#box2{
+height:20px;
+background-color: #a2a2a2;
+
+}
+
+
+#box3{
+width: 250px;
+height:800px;
+float:left;
+background-color: #333333;
+position: relative;
+}
+
+#box4{
+width: 100%;
+height:600px;
+background-color:#d2d0d2; 
+}
+
+#box5{
+width: 100%;
+height:200px;
+background-color:#838283; 
+}

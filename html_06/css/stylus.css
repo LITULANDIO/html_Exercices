@@ -1,0 +1,107 @@
+
+
+#container{
+
+	margin-left:200px;
+	margin-right:200px;
+	
+	
+}
+
+#cabecera{
+	margin:0; 
+	color: white;
+	background-color: #004095;
+	width: 100%;	
+	height: 45px;
+}
+
+h1, h2{
+	margin:0;
+	padding: 5px;
+}
+
+#menuLeft{
+background-color: white;
+float:left;
+width: 200px;
+height: 1500px;
+
+
+}
+
+.list{
+
+background-color: #cbd086;
+padding:1px;
+}
+
+
+.list1, .list2, .list3, .list4{
+padding-left: 10px;
+color:#d7442f;	
+}
+
+
+
+ul{
+margin:0;
+list-style:none;
+padding:0;
+
+}
+
+li{
+
+font-size: 18px;
+border-bottom:solid 2px;
+border-color: black;
+padding:8px 0px;
+}
+
+.textMenu{
+
+background-color: #56fafe;
+color:blue;
+font-size:22px;
+padding: 1px 10px;
+
+}
+
+img{
+	float:left;
+	padding-top:13px;
+	padding-left:13px;
+	padding-right:13px;
+}
+
+.img2{
+	float:right;
+	position: relative;
+	margin:0px;
+}
+
+h2{
+	margin:;
+}
+
+.textSeccion1{
+	font-size: 26px;
+	padding-left:220px;
+
+}
+
+.textGeneral{
+font-size: 26px;
+padding-bottom: 0px;
+padding-left:220px;
+
+}
+
+#food{
+
+	background-color: #004095;
+	color:white;
+	width: 100%;
+	height: 60px;
+}
