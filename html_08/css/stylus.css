@@ -1,0 +1,13 @@
+#container{
+border: 1px solid;
+margin:0 auto;
+width: 75%;
+background-color: white;
+box-shadow: 6px -30px 550px 570px outside ;
+}
+
+body{
+	margin:0 auto;
+	background: -webkit-linear-gradient(top, #f1e767 0%,#feb645 100%);
+
+}

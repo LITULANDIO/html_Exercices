@@ -1,0 +1,170 @@
+!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <style>
+
+            * {
+                box-sizing: border-box;
+/*                border: 1px solid red !important;*/
+            }
+            .container {
+                width: 75%;
+                margin: 0 auto;
+                background: white;
+                padding: 10px;
+            }
+            body {
+                background-image: radial-gradient(yellow, #f06d06 );
+            }
+            header {
+                display: flex;
+                justify-content: space-between;
+                padding:10px;
+                border-bottom:1px solid grey;
+            }
+            header h1 {
+                margin:0;
+                width: 400px;
+            }
+            .menu_top ul {
+                display: flex;
+                justify-content: flex-end;
+                width: 400px;
+                margin:0;
+                padding: 0;
+                height:100%;
+                list-style: none;
+            }
+            .menu_nav li {
+                display: flex;
+            }
+            .menu_nav li a {
+                padding: 5px 10px;
+                text-decoration: none;
+                color: black;
+            }
+            .menu_nav li a:hover {
+                background: black;
+                color: white;
+            }
+
+            .container > * {
+                border:1px solid blue;
+            }
+            main > * {
+                border:1px solid green;
+                float:left;
+            }
+            main > section {
+                width: 80%;
+                padding: 20px;
+            }
+            main > aside {
+                width: 20%;
+                padding: 10px;
+            }
+            .clearfix {
+                clear: both;
+            }
+
+            footer ul {
+                display: flex;
+                list-style: none;
+                justify-content: space-around;
+                padding: 0;
+            }
+            footer ul li a {
+                text-decoration: none;
+            }
+
+            @media (max-width: 900px) {
+
+                main > section, main > aside {
+                    float:none;
+                    width: 100%;
+                }
+
+                header {
+                    flex-direction: column;
+                }
+                header h1, .menu_top ul {
+                    width: 100%;
+                }
+                header h1 {
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+                .menu_top ul {
+                    justify-content: center;
+                }
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>My Super Cool Project 😎</h1>
+                <nav class="menu_top menu_nav">
+                    <ul>
+                        <li><a href="#">Menu 1</a></li>
+                        <li><a href="#">Menu 2</a></li>
+                        <li><a href="#">Menu 3</a></li>
+                        <li><a href="#">Menu 4</a></li>
+                        <li><a href="#">Menu 5</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+            <main>
+            <section>
+                <h2>Secondary Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, ipsam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, ipsam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, ipsam?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, ipsam?</p>
+            </section>
+            <aside>
+                <section>
+                    <h3>Extra Title</h3>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Extra Title</h3>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Extra Title</h3>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                    </ul>
+                </section>
+            </aside>
+            </main>
+            <footer class="clearfix">
+                <ul class="menu_nav">
+                    <li><a href="#">Footer 1</a></li>
+                    <li><a href="#">Footer 2</a></li>
+                    <li><a href="#">Footer 3</a></li>
+                    <li><a href="#">Footer 4</a></li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
