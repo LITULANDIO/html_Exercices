@@ -1,11 +1,72 @@
 
-*{
-	border: 1px solid;
+
+.thumbnail{
+
+	margin-bottom: 0px;
 }
 
-.contprimary{
-width: 100%;
-margin:80px;
-background-color: silver;
 
+.general-cont{
+margin-top:120px;
+padding:0px;
 }
+
+body{
+margin:1px;
+background-color:#eee;
+}
+
+h3{
+color:#3b5767;
+}
+
+.about{
+padding-left:40px;
+}
+
+
+.container{
+background-color: white;
+}
+
+
+.img-person{
+margin-top:-110px;
+display: block;
+}
+
+.title-mine{
+margin:3px;
+}
+
+.list-ul li {
+margin-left:-40px;
+list-style: none;
+padding:10px;
+display:fl;
+}
+
+.content01{
+background-color: #eee;
+padding:10px;
+margin:10px;
+}
+
+.images{
+padding: 10px;
+}
+
+.food{
+margin:0px ;
+height: 100px;
+background-color: #3b5a76;
+color:white;
+}
+
+
+.food-02{
+	padding: 15px;
+	background-color: #3b5a76;
+}
+
+
